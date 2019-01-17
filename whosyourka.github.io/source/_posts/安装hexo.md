@@ -6,6 +6,8 @@ tags:
 
 [TOC]
 
+# 本文为快速部署，详细问题请参考[官方文档](https://hexo.io/zh-cn/docs/)：
+
 # 安装插件：
 
 ## linux: 
@@ -18,7 +20,7 @@ sudo apt install nodejs
 sudo apt install npm
 ```
 
-安装最新的管理插件
+直接安装hexo：
 
 ```
 npm install -g hexo-cli
@@ -42,11 +44,13 @@ npm install hexo-deployer-git --save（hexo的git插件，后续需要用）
 
 ```
 hexo init xxxxxxxxxxx（github名称）.github.io     //如果要传到github
+cd xxxxxxxxxxx（github名称）.github.io
+npm install
 hexo g
 hexo s 
 ```
 
-本地效果，命令查看hexo help
+本地效果：locol:host:4000，命令查看hexo help
 
 
 
@@ -72,18 +76,16 @@ hexo g
 然后上传命令：
 
 ```
- hexo d   
+hexo d   
 ```
-
-
 
 # 其他功能
 
-## 主要功能
+## 个人主要功能
 
 **评论功能：**http://theme-next.iissnan.com/third-party-services.html
 
-**归档，分类，标签，索引功能：**
+**归档，分类，标签，索引功能：已默认安装**
 
 **搜索功能：**
 
@@ -91,26 +93,8 @@ hexo g
 
 
 
-## 其他插件命令
-
-- 索引生成器：`npm install hexo-generator-index --save`
-
-- 归档生成器：`npm install hexo-generator-archive --save`
-
-- 分类生成器：`npm install hexo-generator-category --save`
-
-- 标签生成器：`npm install hexo-generator-tag --save`
+## 其他可能用到的插件命令(已经安装查看package.json)
 
 - 本地搜索: `npm install hexo-generator-search --save`
-
-- 本地化服务：`npm install hexo-server --save`
-
-- Git部署功能：`npm install hexo-deployer-git --save`
-
-- 渲染器：`npm install hexo-renderer-marked --save`
-
-- 渲染器：`npm install hexo-renderer-stylus --save`
-
 - 置顶功能：`npm install hexo-helper-post-top --save`
-
 - Latex语法支持： `npm install hexo-math --save`
