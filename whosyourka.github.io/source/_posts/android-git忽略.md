@@ -4,8 +4,6 @@ date: 2019-01-17 16:49:38
 tags:
 ---
 
-[TOC]
-
 # android [忽略文件公共网站](https://github.com/github/gitignore/blob/master/Android.gitignore)
 
 内容：

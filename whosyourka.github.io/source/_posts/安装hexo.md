@@ -4,9 +4,7 @@ date: 2019-01-17 16:48:32
 tags:
 ---
 
-[TOC]
-
-# 本文为快速部署，详细问题请参考[官方文档](https://hexo.io/zh-cn/docs/)：
+# 本文为快速部署，详细问题请参考[官方文档](https://hexo.io/zh-cn/docs/)   
 
 # 安装插件：
 
