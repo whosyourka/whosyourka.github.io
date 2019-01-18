@@ -94,15 +94,7 @@ hexo d
 
 设置RSS，tags，categories，去掉动画，google分析，百度统计
 
-其中
-
-RSS：
-
-google分析验证：
-
-百度统计验证：
-
-社交，打赏，订阅微信公众号  后续集成
+后续集成：社交，打赏，订阅微信公众号  
 
 ## 第三方服务集成[请参考官方NexT](http://theme-next.iissnan.com/third-party-services.html)
 
