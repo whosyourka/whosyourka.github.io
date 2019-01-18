@@ -1,7 +1,12 @@
 ---
 title: 安装hexo
 date: 2019-01-17 16:48:32
-tags:
+categories:
+- hexo
+tags: 
+- hexo
+
+
 ---
 
 # 本文为快速部署，详细问题请参考[官方文档](https://hexo.io/zh-cn/docs/)   
@@ -81,22 +86,47 @@ hexo d
 
 其他电脑使用：先安装git nodejs npm hexo，然后获取到源代码，就（xxxxxxxxxxx（github名称）.github.io目录下）可以直接用hexo g和hexo s本地生成了 ，想用hexo d，还是要安装（npm install hexo-deployer-git --save）
 
-# 其他功能
+# 主题Next功能（下面功能都可以再[官网](https://theme-next.iissnan.com/)获取）
 
-## 个人主要功能
+首先先集成主题：[最新主题](https://github.com/iissnan/hexo-theme-next) 下载完放theme文件目录，并修改_config.yml里面的theme标签，接下来就可以开心的集成其他功能了。
 
-**评论功能：**http://theme-next.iissnan.com/third-party-services.html
+## 主题设定
 
-**归档，分类，标签，索引功能：已默认安装**
+设置RSS，tags，categories，去掉动画，google分析，百度统计
 
-**搜索功能：**
+其中
 
-**主题：**[最新主题](https://github.com/iissnan/hexo-theme-next) 下载完放theme文件目录，并修改_config.yml里面的theme标签
+RSS：
+
+google分析验证：
+
+百度统计验证：
+
+社交，打赏，订阅微信公众号  后续集成
+
+## 第三方服务集成[请参考官方NexT](http://theme-next.iissnan.com/third-party-services.html)
+
+**搜索功能：**我用的是local search，安装`npm install hexo-generator-search --save`，修改themes/(主题名) 的_config.yml文件,改成true
+
+``` local_search:
+local_search:
+  enable: true
+```
+
+**[评论功能](https://chad-it.github.io/2018/06/14/Hexo%E9%9B%86%E6%88%90Gitment%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/)：**个人使用gitment，修改themes/(主题名) 的_config.yml文件，找到gitment标签，修改下面对应的数据（先注册个[OAuth](https://github.com/settings/applications/new)）
+
+```
+gitment:
+  enable: true
+  github_user: # MUST HAVE, Your Github ID
+  github_repo: # MUST HAVE, The repo you use to store Gitment comments
+  client_id: # MUST HAVE, Github client id for the Gitment
+  client_secret: # EITHER this or proxy_gateway, Github access secret
+```
 
 
 
-## 其他可能用到的插件命令(已经安装查看package.json)
+# 其他可能用到的插件命令(已经安装查看package.json)
 
-- 本地搜索: `npm install hexo-generator-search --save`
 - 置顶功能：`npm install hexo-helper-post-top --save`
 - Latex语法支持： `npm install hexo-math --save`
