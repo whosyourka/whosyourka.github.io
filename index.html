@@ -432,12 +432,12 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install git</span><br><span class="line">sudo apt install nodejs</span><br><span class="line">sudo apt install npm</span><br></pre></td></tr></table></figure>
 <p>直接安装hexo：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">npm install hexo-deployer-git --save（hexo的git插件，后续需要用）</span><br></pre></td></tr></table></figure>
-<h2 id="windows："><a href="#windows：" class="headerlink" title="windows："></a>windows：</h2><p>nodejs：<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></p>
+<h2 id="windows："><a href="#windows：" class="headerlink" title="windows："></a>windows：</h2><p>nodejs和npm：<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></p>
 <p>git：<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">https://git-scm.com/download/win</a></p>
 <p>配置完环境变量后直接安装hexo：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">npm install hexo-deployer-git --save（hexo的git插件，后续需要用）</span><br></pre></td></tr></table></figure>
 <h1 id="hexo-初始化"><a href="#hexo-初始化" class="headerlink" title="hexo 初始化"></a>hexo 初始化</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo init xxxxxxxxxxx（github名称）.github.io     //如果要传到github</span><br><span class="line">cd xxxxxxxxxxx（github名称）.github.io</span><br><span class="line">npm install</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>本地效果：locol:host:4000，命令查看hexo help</p>
+<p>本地效果：locolhost:4000</p>
 <h1 id="上传git"><a href="#上传git" class="headerlink" title="上传git"></a>上传git</h1><p>github新建一个项目，名称：用户名.github.io</p>
 <p>然后在本地目录里面配置_config.yml:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repository: https://github.com/xxxxx/xxxxx.github.io.git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
@@ -445,10 +445,12 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
 <p>然后上传命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<h1 id="多台电脑共用"><a href="#多台电脑共用" class="headerlink" title="多台电脑共用"></a>多台电脑共用</h1><p>首先把源代码(xxxxxxxxxxx（github名称）.github.io)保存到远程仓库（github都可以），然后每次hexo d发布后，再提交到远程仓库。</p>
+<p>其他电脑使用：先安装git nodejs npm hexo，然后获取到源代码，就（xxxxxxxxxxx（github名称）.github.io目录下）可以直接用hexo g和hexo s本地生成了 ，想用hexo d，还是要安装（npm install hexo-deployer-git –save）</p>
 <h1 id="其他功能"><a href="#其他功能" class="headerlink" title="其他功能"></a>其他功能</h1><h2 id="个人主要功能"><a href="#个人主要功能" class="headerlink" title="个人主要功能"></a>个人主要功能</h2><p><strong>评论功能：</strong><a href="http://theme-next.iissnan.com/third-party-services.html" target="_blank" rel="noopener">http://theme-next.iissnan.com/third-party-services.html</a></p>
 <p><strong>归档，分类，标签，索引功能：已默认安装</strong></p>
 <p><strong>搜索功能：</strong></p>
-<p><strong>主题：</strong></p>
+<p><strong>主题：</strong><a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">最新主题</a> 下载完放theme文件目录，并修改_config.yml里面的theme标签</p>
 <h2 id="其他可能用到的插件命令-已经安装查看package-json"><a href="#其他可能用到的插件命令-已经安装查看package-json" class="headerlink" title="其他可能用到的插件命令(已经安装查看package.json)"></a>其他可能用到的插件命令(已经安装查看package.json)</h2><ul>
 <li>本地搜索: <code>npm install hexo-generator-search --save</code></li>
 <li>置顶功能：<code>npm install hexo-helper-post-top --save</code></li>
