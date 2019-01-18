@@ -27,7 +27,7 @@ npm install hexo-deployer-git --save（hexo的git插件，后续需要用）
 
 ## windows：
 
-nodejs：https://nodejs.org/en/
+nodejs和npm：https://nodejs.org/en/
 
 git：https://git-scm.com/download/win
 
@@ -48,9 +48,7 @@ hexo g
 hexo s 
 ```
 
-本地效果：locol:host:4000，命令查看hexo help
-
-
+本地效果：locolhost:4000
 
 # 上传git
 
@@ -77,6 +75,12 @@ hexo g
 hexo d   
 ```
 
+# 多台电脑共用
+
+首先把源代码(xxxxxxxxxxx（github名称）.github.io)保存到远程仓库（github都可以），然后每次hexo d发布后，再提交到远程仓库。
+
+其他电脑使用：先安装git nodejs npm hexo，然后获取到源代码，就（xxxxxxxxxxx（github名称）.github.io目录下）可以直接用hexo g和hexo s本地生成了 ，想用hexo d，还是要安装（npm install hexo-deployer-git --save）
+
 # 其他功能
 
 ## 个人主要功能
@@ -87,7 +91,7 @@ hexo d
 
 **搜索功能：**
 
-**主题：**
+**主题：**[最新主题](https://github.com/iissnan/hexo-theme-next) 下载完放theme文件目录，并修改_config.yml里面的theme标签
 
 
 
