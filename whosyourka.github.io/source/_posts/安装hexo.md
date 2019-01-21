@@ -92,7 +92,7 @@ hexo d
 
 ## 主题设定
 
-设置RSS，tags，categories，去掉动画，google分析，百度统计，[阅读量统计](http://www.jeyzhang.com/hexo-next-add-post-views.html)
+设置RSS，tags，categories，去掉动画，google分析，百度统计，[阅读量统计](http://www.jeyzhang.com/hexo-next-add-post-views.html)，自动截断
 
 本地字数统计修改：修改themes/(主题名) 的_config.yml文件，找到post_wordcount下面的wordcount为true
 
