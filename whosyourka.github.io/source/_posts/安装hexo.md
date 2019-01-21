@@ -9,7 +9,7 @@ tags:
 
 ---
 
-# 本文为快速部署，详细问题请参考[官方文档](https://hexo.io/zh-cn/docs/)   
+# 本文为本博客的快速部署方案，详细问题请参考[官方文档](https://hexo.io/zh-cn/docs/)   
 
 # 安装插件：
 
@@ -88,13 +88,15 @@ hexo d
 
 # 主题Next功能（下面功能都可以再[官网](https://theme-next.iissnan.com/)获取）
 
-首先先集成主题：[最新主题](https://github.com/iissnan/hexo-theme-next) 下载完放theme文件目录，并修改_config.yml里面的theme标签，接下来就可以开心的集成其他功能了。
+首先先集成主题：[最新主题](https://github.com/iissnan/hexo-theme-next) 下载完放theme文件目录，并修改\_config.yml里面的theme标签，接下来就可以开心的集成其他功能了。ps：下面的\_config.yml为主题目录下的,跟前面的不一样
 
 ## 主题设定
 
-设置RSS，tags，categories，去掉动画，google分析，百度统计
+设置RSS，tags，categories，去掉动画，google分析，百度统计，[阅读量统计](http://www.jeyzhang.com/hexo-next-add-post-views.html)
 
-后续集成：社交，打赏，订阅微信公众号  
+本地字数统计修改：修改themes/(主题名) 的_config.yml文件，找到post_wordcount下面的wordcount为true
+
+后续集成：[社交](https://github.com/revir/need-more-share2)，打赏，订阅微信公众号  
 
 ## 第三方服务集成[请参考官方NexT](http://theme-next.iissnan.com/third-party-services.html)
 
@@ -105,7 +107,9 @@ local_search:
   enable: true
 ```
 
-**[评论功能](https://chad-it.github.io/2018/06/14/Hexo%E9%9B%86%E6%88%90Gitment%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/)：**个人使用gitment，修改themes/(主题名) 的_config.yml文件，找到gitment标签，修改下面对应的数据（先注册个[OAuth](https://github.com/settings/applications/new)）
+**[评论功能](https://chad-it.github.io/2018/06/14/Hexo%E9%9B%86%E6%88%90Gitment%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/)：**
+
+1.使用gitment，修改themes/(主题名) 的_config.yml文件，找到gitment标签，修改下面对应的数据（先注册个[OAuth](https://github.com/settings/applications/new)）
 
 ```
 gitment:
@@ -116,9 +120,4 @@ gitment:
   client_secret: # EITHER this or proxy_gateway, Github access secret
 ```
 
-
-
-# 其他可能用到的插件命令(已经安装查看package.json)
-
-- 置顶功能：`npm install hexo-helper-post-top --save`
-- Latex语法支持： `npm install hexo-math --save`
+2.使用valine，修改themes/(主题名) 的_config.yml文件，修改enable，appid，appkey即可（appid和appkey需要申请leancloud），这种不需要登录可评论
