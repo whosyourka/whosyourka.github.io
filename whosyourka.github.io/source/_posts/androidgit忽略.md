@@ -1,7 +1,8 @@
 ---
 title: android_git忽略
 date: 2019-01-17 16:49:38
-tags:
+tags: git
+categories: git
 ---
 
 # android [忽略文件公共网站](https://github.com/github/gitignore/blob/master/Android.gitignore)
