@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-13T08:00:27.843Z</updated>
+  <updated>2019-02-13T10:08:20.518Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,19 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>android studio个人常用快捷</title>
-    <link href="http://yoursite.com/2019/01/23/androidstudio%E4%B8%AA%E4%BA%BA%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7/"/>
-    <id>http://yoursite.com/2019/01/23/androidstudio个人常用快捷/</id>
-    <published>2019-01-23T09:09:37.000Z</published>
-    <updated>2019-02-13T08:00:27.843Z</updated>
+    <title>android studio问题</title>
+    <link href="http://yoursite.com/2019/02/13/androidstudio%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2019/02/13/androidstudio的问题/</id>
+    <published>2019-02-12T16:00:00.000Z</published>
+    <updated>2019-02-13T10:08:20.518Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="我的快捷（参考-翻译）："><a href="#我的快捷（参考-翻译）：" class="headerlink" title="我的快捷（参考,翻译）："></a>我的快捷（<a href="https://note.youdao.com/" target="_blank" rel="noopener">参考</a>,<a href="https://note.youdao.com/" target="_blank" rel="noopener">翻译</a>）：</h2><h3 id="IDE"><a href="#IDE" class="headerlink" title="IDE"></a>IDE</h3><p>Ctrl(Command)+Alt(Option)+S    打开设置对话框</p><p>Ctrl(Command)+Alt(Option)+Shift+S    打开当前项目/模块属性</p><p>Alt(Option)+Shift+C    查看文件的变更历史</p><h3 id="编辑"><a href="#编辑" class="headerlink" title="编辑"></a>编辑</h3><p>Ctrl(Command)+C    复制当前行或选中的内容</p><p>Ctrl(Command)+D    粘贴当前行或选中的内容</p><p>Ctrl(Command)+X    剪切当前行或选中的内容</p><p>Ctrl(Command)+Y    删除行</p><p>Ctrl(Command)+Z    倒退</p><p>Ctrl(Command)+Shift+Z    向前</p><p>Alt(Option)+Enter    自动修正</p><p>Ctrl(Command)+Alt(Option)+L    格式化代码</p><p>Ctrl(Command)+Alt(Option)+I    将选中的代码进行自动缩进编排</p><p>Alt(Option)+Insert    得到一些Intention Action，可以生成构造器、Getter、Setter、将 == 改为 equals() 等</p><p>Ctrl(Command)+Shift+V    选最近使用的剪贴板内容并插入</p><p>Shift+Enter    在当前行的下面插入新行，并移动光标到新行</p><p>Ctrl(Command)+J    自动提示特殊代码如fori</p><p>Ctrl(Command)+Alt(Option)+T    把选中的代码放在 try{} 、if{} 、 else{} 里</p><p>Ctrl(Command)+ /    注释 //</p><p>F2/Shift+F2    跳转到下/上一个错误语句处</p><p>Ctrl(Command)+Shift+Back    跳转到上次编辑的地方</p><p>Ctrl(Command)+Alt(Option)+Space    类名自动完成</p><p>Ctrl(Command)+Shift+Up/Down    语句向上/下移动</p><p>Ctrl(Command)+Shift+U    大小写切换</p><p>Tab    代码标签输入完成后，按 Tab，生成代码</p><p>Ctrl(Command)+Backspace    按单词删除</p><p>Ctrl(Command)+Shift+Enter    语句完成</p><p>Ctrl(Command)+Alt(Option)+J    用动态模板环绕</p><h3 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h3><p>Ctrl(Command)+H    显示类继承结构图</p><p>Ctrl(Command)+Q    显示注释文档</p><p>Ctrl(Command)+P    方法参数提示</p><p>Ctrl(Command)+U    打开当前类的父类或者实现的接口</p><p>Alt(Option)+Up/Down    在方法间快速移动定位</p><p>Ctrl(Command)+W    选中代码，连续按会有其他效果</p><p>Ctrl(Command)+Shift+W    取消选择光标所在词</p><p>Ctrl(Command)+ - / +    折叠/展开代码</p><p>Ctrl(Command)+Shift+ - / +    折叠/展开全部代码</p><p>Ctrl(Command)+Shift+.    折叠/展开当前花括号中的代码</p><p>Ctrl(Command)+ ] / [    跳转到代码块结束/开始处</p><p>F2 或 Shift+F2    高亮错误或警告快速定位</p><p>Ctrl(Command)+Shift+C    复制路径</p><p>Ctrl(Command)+Alt(Option)+Shift+C    复制引用，必须选择类名</p><p>Ctrl(Command)+G    定位行</p><h3 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h3><p>Ctrl(Command)+F    在当前窗口查找文本</p><p>Ctrl(Command)+Shift+F    在指定环境下查找文本</p><p>F3    向下查找关键字出现位置</p><p>Shift+F3    向上一个关键字出现位置</p><p>Ctrl(Command)+R    在当前窗口替换文本</p><p>Ctrl(Command)+Shift+R    在指定窗口替换文本</p><p>Ctrl(Command)+B    查找变量的来源</p><p>Ctrl(Command)+Alt(Option)+B    快速打开光标处的类或方法</p><p>Ctrl(Command)+Shift+B    跳转到类或方法实现处</p><p>Ctrl(Command)+F7    查询当前元素在当前文件中的引用，然后按 F3 可以选择</p><p>Ctrl(Command)+Alt(Option)+F7    选中查询当前元素在工程中的引用</p><p>Ctrl(Command)+Alt(Option)+F7    查找某个方法的所有调用地方</p><h3 id="重构"><a href="#重构" class="headerlink" title="重构"></a>重构</h3><p>F6    移动</p><p>Ctrl(Command)+Alt(Option)+Shift+T    弹出重构菜单</p><p>Shift+F6    重构-重命名</p><p>Ctrl(Command)+Alt(Option)+M    提取代码组成方法</p><p>Ctrl(Command)+Alt(Option)+C    将变量更改为常量</p><p>Ctrl(Command)+Alt(Option)+V    定义变量引用当前对象或者方法的返回值</p><p>Ctrl(Command)+Alt(Option)+F    将局部变量更改为类的成员变量</p><p>Ctrl(Command)+Alt(Option)+P    将变量更改为方法的参数</p><h3 id="VCS"><a href="#VCS" class="headerlink" title="VCS"></a>VCS</h3><p>|Alt(Option)+ ~|</p><p>|VCS 操作菜单|</p><p>|Ctrl(Command)+K|提交更改|</p><p>|Ctrl(Command)+T|更新项目|</p><p>|Ctrl(Command)+Alt(Option)+Shift+D|显示变化|</p><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>快速修复    Alt + Enter</p><p>删除光标所在行（选中行）    Ctrl + Y / Ctrl + X</p><p>复制光标所在的行（选中行）    Ctrl + D</p><p>格式化代码（java、xml）    Ctrl + Alt + L</p><p>重命名    Shift + F6</p><p>方法参数提示    Ctrl + P</p><p>打印输出    sout</p><p>快速定位到任意的文件    按两次shift</p><p>快速定位方法在哪里被调用    Ctrl + Alt + H</p><p>快速定位到当前类报错或警告的地方    F2 或Shift+F2</p><p>快速定位到类或方法的定义    Ctrl+B</p><p>代码助手，自动补全    Ctrl + Alt +空格：属性名、类名或接口名提示</p><p>Ctrl + Shift + 空格    方法提示</p><p>Ctrl + Alt + O    删除没用到的包。</p><p>搜索或替换    Ctrl + F / Ctrl + R</p><p>全局搜索或全局替换    Ctrl + Shift + F 在选中的文件目录里搜索</p><p>Ctrl + Shift + R    在选中的文件目录里替换</p><p>显示JavaDoc（注释文档）    Ctrl + Q</p><p>导入重载方法    Ctrl + O 输入方法名上下方向键选择后回车</p><p>生成 get/set方法、构造方法、toString()    alt + insert</p><p>撤销    Ctrl+Z</p><p>恢复    Ctrl+Shift+Z</p><p>注释    同左</p><p>回车换行    Ctrl + Alt + Enter</p><p>复制类的全局路径（包名加类名）    Ctrl + Shift + Alt + C (右击–&gt; Copy Reference)</p><p>大写/小写    Ctrl + Shift + U</p><p>回到上一次编辑的位置    Ctrl + Shift + Backspace</p><h3 id="自定义快捷"><a href="#自定义快捷" class="headerlink" title="自定义快捷"></a>自定义快捷</h3><p>alt ` 显示版本(vcs operation popup)</p><p>ctrl alt shift ` 和某一个版本比较（compare with…）</p><p>ctrl alt ` （Main menu | VCS | Subversion | Compare with Latest Repository Version） 和前一个版本比较</p><p>alt ctrl 1 自己注释方法（fix doc comment）</p><p>Ctrl + J 动态模板（Main menu | Code | Insert Live Template…）</p><p>ctrl alt q 为翻译软件专用（Plug-ins | ECTranslation | Translate）</p><p><a href="https://github.com/vondear/RxTool" target="_blank" rel="noopener">工具库</a></p>]]></content>
+    <content type="html"><![CDATA[<p>1.as配置：卡死原因</p><ul><li>不能翻墙，请使用lantern</li><li>配置阿里的gradle源</li></ul><p>2.编译异常</p><blockquote><p>Error:Execution failed for task ‘:processDebugResources’. com.android.ide.common.process.ProcessException: Failed to execute aapt</p></blockquote><p>问题是android10的jar问题，或者是版本build工具问题</p><p>3.错误The APK file xxxx Error while Installing APK<br>有可能是build Variants的问题</p><p>4.Cannot find System Java Compiler. Ensure that you have installed a JDK (not just a JRE) and configured your JAVA_HOME system variable to point to the according director.<br>配置jdk环境</p><p>5.Error:All flavors must now belong to a named flavor dimension. </p><p>gradle升级问题：Learn more at <a href="https://d.android.com/r/tools/flavorDimensions-missing-error-message.html" target="_blank" rel="noopener">https://d.android.com/r/tools/flavorDimensions-missing-error-message.html</a> 见<a href="https://github.com/googlecodelabs/android-testing/issues/85" target="_blank" rel="noopener">github</a></p><p>6.Android Studio快捷键失效的问题 ：qq，微信，有道翻译，输入法热键 冲突</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;我的快捷（参考-翻译）：&quot;&gt;&lt;a href=&quot;#我的快捷（参考-翻译）：&quot; class=&quot;headerlink&quot; title=&quot;我的快捷（参考,翻译）：&quot;&gt;&lt;/a&gt;我的快捷（&lt;a href=&quot;https://note.youdao.com/&quot; target=&quot;_b
+        &lt;p&gt;1.as配置：卡死原因&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不能翻墙，请使用lantern&lt;/li&gt;
+&lt;li&gt;配置阿里的gradle源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2.编译异常&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Error:Execution failed for task ‘
       
     
     </summary>
@@ -68,19 +75,19 @@
   </entry>
   
   <entry>
-    <title>eclipse转android studio</title>
-    <link href="http://yoursite.com/2019/01/23/eclipse%E8%BD%ACandroidstudio/"/>
-    <id>http://yoursite.com/2019/01/23/eclipse转androidstudio/</id>
-    <published>2019-01-23T09:06:31.000Z</published>
-    <updated>2019-02-13T08:00:12.670Z</updated>
+    <title>android studio个人常用快捷</title>
+    <link href="http://yoursite.com/2019/01/23/androidstudio%E4%B8%AA%E4%BA%BA%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7/"/>
+    <id>http://yoursite.com/2019/01/23/androidstudio个人常用快捷/</id>
+    <published>2019-01-23T09:09:37.000Z</published>
+    <updated>2019-02-13T08:00:27.843Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="eclipse转android-studio，2者共用"><a href="#eclipse转android-studio，2者共用" class="headerlink" title="eclipse转android studio，2者共用"></a>eclipse转android studio，2者共用</h2><ul><li><p>eclipse和android studio共用（AS直接导入eclipse可能只能用AS编程了）：eclipse首先要export出build文件出来，然后才可以引入到AS里面，这样就可以在as或者eclipse编程了，缺点引包还是需要自己下载等。</p></li><li><p>项目编码设置(旧项目有些是用GBK)</p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">android.sourceSets &#123; compileOptions &#123; encoding &quot;GBK&quot; &#125; &#125;</span><br><span class="line">tasks.withType(JavaCompile) &#123; options.encoding = &quot;GBK&quot; &#125;</span><br></pre></td></tr></table></figure><ul><li>其次是so文件，放在libs下的时候（推荐把jni下的c代码编译成so文件）</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android.sourceSets.main&#123; jniLibs.srcDirs = [&apos;libs&apos;] &#125;</span><br></pre></td></tr></table></figure><ul><li>android系统包低于自己公司定制的系统包，则</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">provided  files(&apos;classlib/xxxxxx.jar&apos;)</span><br><span class="line">  </span><br><span class="line">gradle.projectsEvaluated &#123;</span><br><span class="line">    tasks.withType(JavaCompile) &#123;</span><br><span class="line">        options.compilerArgs.add(&apos;-Xbootclasspath/p:C:\\home\\workplace\\lakalasdk\\classlib\\xxxxxx.jar&apos;)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="我的快捷（参考-翻译）："><a href="#我的快捷（参考-翻译）：" class="headerlink" title="我的快捷（参考,翻译）："></a>我的快捷（<a href="https://note.youdao.com/" target="_blank" rel="noopener">参考</a>,<a href="https://note.youdao.com/" target="_blank" rel="noopener">翻译</a>）：</h2><h3 id="IDE"><a href="#IDE" class="headerlink" title="IDE"></a>IDE</h3><p>Ctrl(Command)+Alt(Option)+S    打开设置对话框</p><p>Ctrl(Command)+Alt(Option)+Shift+S    打开当前项目/模块属性</p><p>Alt(Option)+Shift+C    查看文件的变更历史</p><h3 id="编辑"><a href="#编辑" class="headerlink" title="编辑"></a>编辑</h3><p>Ctrl(Command)+C    复制当前行或选中的内容</p><p>Ctrl(Command)+D    粘贴当前行或选中的内容</p><p>Ctrl(Command)+X    剪切当前行或选中的内容</p><p>Ctrl(Command)+Y    删除行</p><p>Ctrl(Command)+Z    倒退</p><p>Ctrl(Command)+Shift+Z    向前</p><p>Alt(Option)+Enter    自动修正</p><p>Ctrl(Command)+Alt(Option)+L    格式化代码</p><p>Ctrl(Command)+Alt(Option)+I    将选中的代码进行自动缩进编排</p><p>Alt(Option)+Insert    得到一些Intention Action，可以生成构造器、Getter、Setter、将 == 改为 equals() 等</p><p>Ctrl(Command)+Shift+V    选最近使用的剪贴板内容并插入</p><p>Shift+Enter    在当前行的下面插入新行，并移动光标到新行</p><p>Ctrl(Command)+J    自动提示特殊代码如fori</p><p>Ctrl(Command)+Alt(Option)+T    把选中的代码放在 try{} 、if{} 、 else{} 里</p><p>Ctrl(Command)+ /    注释 //</p><p>F2/Shift+F2    跳转到下/上一个错误语句处</p><p>Ctrl(Command)+Shift+Back    跳转到上次编辑的地方</p><p>Ctrl(Command)+Alt(Option)+Space    类名自动完成</p><p>Ctrl(Command)+Shift+Up/Down    语句向上/下移动</p><p>Ctrl(Command)+Shift+U    大小写切换</p><p>Tab    代码标签输入完成后，按 Tab，生成代码</p><p>Ctrl(Command)+Backspace    按单词删除</p><p>Ctrl(Command)+Shift+Enter    语句完成</p><p>Ctrl(Command)+Alt(Option)+J    用动态模板环绕</p><h3 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h3><p>Ctrl(Command)+H    显示类继承结构图</p><p>Ctrl(Command)+Q    显示注释文档</p><p>Ctrl(Command)+P    方法参数提示</p><p>Ctrl(Command)+U    打开当前类的父类或者实现的接口</p><p>Alt(Option)+Up/Down    在方法间快速移动定位</p><p>Ctrl(Command)+W    选中代码，连续按会有其他效果</p><p>Ctrl(Command)+Shift+W    取消选择光标所在词</p><p>Ctrl(Command)+ - / +    折叠/展开代码</p><p>Ctrl(Command)+Shift+ - / +    折叠/展开全部代码</p><p>Ctrl(Command)+Shift+.    折叠/展开当前花括号中的代码</p><p>Ctrl(Command)+ ] / [    跳转到代码块结束/开始处</p><p>F2 或 Shift+F2    高亮错误或警告快速定位</p><p>Ctrl(Command)+Shift+C    复制路径</p><p>Ctrl(Command)+Alt(Option)+Shift+C    复制引用，必须选择类名</p><p>Ctrl(Command)+G    定位行</p><h3 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h3><p>Ctrl(Command)+F    在当前窗口查找文本</p><p>Ctrl(Command)+Shift+F    在指定环境下查找文本</p><p>F3    向下查找关键字出现位置</p><p>Shift+F3    向上一个关键字出现位置</p><p>Ctrl(Command)+R    在当前窗口替换文本</p><p>Ctrl(Command)+Shift+R    在指定窗口替换文本</p><p>Ctrl(Command)+B    查找变量的来源</p><p>Ctrl(Command)+Alt(Option)+B    快速打开光标处的类或方法</p><p>Ctrl(Command)+Shift+B    跳转到类或方法实现处</p><p>Ctrl(Command)+F7    查询当前元素在当前文件中的引用，然后按 F3 可以选择</p><p>Ctrl(Command)+Alt(Option)+F7    选中查询当前元素在工程中的引用</p><p>Ctrl(Command)+Alt(Option)+F7    查找某个方法的所有调用地方</p><h3 id="重构"><a href="#重构" class="headerlink" title="重构"></a>重构</h3><p>F6    移动</p><p>Ctrl(Command)+Alt(Option)+Shift+T    弹出重构菜单</p><p>Shift+F6    重构-重命名</p><p>Ctrl(Command)+Alt(Option)+M    提取代码组成方法</p><p>Ctrl(Command)+Alt(Option)+C    将变量更改为常量</p><p>Ctrl(Command)+Alt(Option)+V    定义变量引用当前对象或者方法的返回值</p><p>Ctrl(Command)+Alt(Option)+F    将局部变量更改为类的成员变量</p><p>Ctrl(Command)+Alt(Option)+P    将变量更改为方法的参数</p><h3 id="VCS"><a href="#VCS" class="headerlink" title="VCS"></a>VCS</h3><p>|Alt(Option)+ ~|</p><p>|VCS 操作菜单|</p><p>|Ctrl(Command)+K|提交更改|</p><p>|Ctrl(Command)+T|更新项目|</p><p>|Ctrl(Command)+Alt(Option)+Shift+D|显示变化|</p><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>快速修复    Alt + Enter</p><p>删除光标所在行（选中行）    Ctrl + Y / Ctrl + X</p><p>复制光标所在的行（选中行）    Ctrl + D</p><p>格式化代码（java、xml）    Ctrl + Alt + L</p><p>重命名    Shift + F6</p><p>方法参数提示    Ctrl + P</p><p>打印输出    sout</p><p>快速定位到任意的文件    按两次shift</p><p>快速定位方法在哪里被调用    Ctrl + Alt + H</p><p>快速定位到当前类报错或警告的地方    F2 或Shift+F2</p><p>快速定位到类或方法的定义    Ctrl+B</p><p>代码助手，自动补全    Ctrl + Alt +空格：属性名、类名或接口名提示</p><p>Ctrl + Shift + 空格    方法提示</p><p>Ctrl + Alt + O    删除没用到的包。</p><p>搜索或替换    Ctrl + F / Ctrl + R</p><p>全局搜索或全局替换    Ctrl + Shift + F 在选中的文件目录里搜索</p><p>Ctrl + Shift + R    在选中的文件目录里替换</p><p>显示JavaDoc（注释文档）    Ctrl + Q</p><p>导入重载方法    Ctrl + O 输入方法名上下方向键选择后回车</p><p>生成 get/set方法、构造方法、toString()    alt + insert</p><p>撤销    Ctrl+Z</p><p>恢复    Ctrl+Shift+Z</p><p>注释    同左</p><p>回车换行    Ctrl + Alt + Enter</p><p>复制类的全局路径（包名加类名）    Ctrl + Shift + Alt + C (右击–&gt; Copy Reference)</p><p>大写/小写    Ctrl + Shift + U</p><p>回到上一次编辑的位置    Ctrl + Shift + Backspace</p><h3 id="自定义快捷"><a href="#自定义快捷" class="headerlink" title="自定义快捷"></a>自定义快捷</h3><p>alt ` 显示版本(vcs operation popup)</p><p>ctrl alt shift ` 和某一个版本比较（compare with…）</p><p>ctrl alt ` （Main menu | VCS | Subversion | Compare with Latest Repository Version） 和前一个版本比较</p><p>alt ctrl 1 自己注释方法（fix doc comment）</p><p>Ctrl + J 动态模板（Main menu | Code | Insert Live Template…）</p><p>ctrl alt q 为翻译软件专用（Plug-ins | ECTranslation | Translate）</p><p><a href="https://github.com/vondear/RxTool" target="_blank" rel="noopener">工具库</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;eclipse转android-studio，2者共用&quot;&gt;&lt;a href=&quot;#eclipse转android-studio，2者共用&quot; class=&quot;headerlink&quot; title=&quot;eclipse转android studio，2者共用&quot;&gt;&lt;/a&gt;eclip
+        &lt;h2 id=&quot;我的快捷（参考-翻译）：&quot;&gt;&lt;a href=&quot;#我的快捷（参考-翻译）：&quot; class=&quot;headerlink&quot; title=&quot;我的快捷（参考,翻译）：&quot;&gt;&lt;/a&gt;我的快捷（&lt;a href=&quot;https://note.youdao.com/&quot; target=&quot;_b
       
     
     </summary>
@@ -106,6 +113,31 @@
       
       
         &lt;h1 id=&quot;个人常用AS插件-参考一，参考二，参考三，经常用的也就几个，看top就可以了，太多浪费时间-：&quot;&gt;&lt;a href=&quot;#个人常用AS插件-参考一，参考二，参考三，经常用的也就几个，看top就可以了，太多浪费时间-：&quot; class=&quot;headerlink&quot; title
+      
+    
+    </summary>
+    
+      <category term="android studio" scheme="http://yoursite.com/categories/android-studio/"/>
+    
+    
+      <category term="android studio" scheme="http://yoursite.com/tags/android-studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>eclipse转android studio</title>
+    <link href="http://yoursite.com/2019/01/23/eclipse%E8%BD%ACandroidstudio/"/>
+    <id>http://yoursite.com/2019/01/23/eclipse转androidstudio/</id>
+    <published>2019-01-23T09:06:31.000Z</published>
+    <updated>2019-02-13T08:00:12.670Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="eclipse转android-studio，2者共用"><a href="#eclipse转android-studio，2者共用" class="headerlink" title="eclipse转android studio，2者共用"></a>eclipse转android studio，2者共用</h2><ul><li><p>eclipse和android studio共用（AS直接导入eclipse可能只能用AS编程了）：eclipse首先要export出build文件出来，然后才可以引入到AS里面，这样就可以在as或者eclipse编程了，缺点引包还是需要自己下载等。</p></li><li><p>项目编码设置(旧项目有些是用GBK)</p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">android.sourceSets &#123; compileOptions &#123; encoding &quot;GBK&quot; &#125; &#125;</span><br><span class="line">tasks.withType(JavaCompile) &#123; options.encoding = &quot;GBK&quot; &#125;</span><br></pre></td></tr></table></figure><ul><li>其次是so文件，放在libs下的时候（推荐把jni下的c代码编译成so文件）</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android.sourceSets.main&#123; jniLibs.srcDirs = [&apos;libs&apos;] &#125;</span><br></pre></td></tr></table></figure><ul><li>android系统包低于自己公司定制的系统包，则</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">provided  files(&apos;classlib/xxxxxx.jar&apos;)</span><br><span class="line">  </span><br><span class="line">gradle.projectsEvaluated &#123;</span><br><span class="line">    tasks.withType(JavaCompile) &#123;</span><br><span class="line">        options.compilerArgs.add(&apos;-Xbootclasspath/p:C:\\home\\workplace\\lakalasdk\\classlib\\xxxxxx.jar&apos;)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;eclipse转android-studio，2者共用&quot;&gt;&lt;a href=&quot;#eclipse转android-studio，2者共用&quot; class=&quot;headerlink&quot; title=&quot;eclipse转android studio，2者共用&quot;&gt;&lt;/a&gt;eclip
       
     
     </summary>
